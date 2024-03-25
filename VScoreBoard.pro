@@ -17,7 +17,6 @@ QT += core
 QT += gui
 QT += widgets
 QT += opengl
-#QT += openglwidgets
 QT += bluetooth
 
 #CONFIG += c++17
