@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ShadersRPi3/fAngular.glsl</file>
+        <file>ShadersRPi3/fAvatar.glsl</file>
+        <file>ShadersRPi3/fBookFlip.glsl</file>
+        <file>ShadersRPi3/fBounce.glsl</file>
+        <file>ShadersRPi3/fCircleopen.glsl</file>
+        <file>ShadersRPi3/fCrosshatch.glsl</file>
+        <file>ShadersRPi3/fCrosswarp.glsl</file>
+        <file>ShadersRPi3/fDebug_quad.glsl</file>
+        <file>ShadersRPi3/fDepth.glsl</file>
+        <file>ShadersRPi3/fDisplacement.glsl</file>
+        <file>ShadersRPi3/fDoomScreen.glsl</file>
+        <file>ShadersRPi3/fDreamy.glsl</file>
+        <file>ShadersRPi3/fFade.glsl</file>
+        <file>ShadersRPi3/fFilmBurn.glsl</file>
+        <file>ShadersRPi3/fFlyEye.glsl</file>
+        <file>ShadersRPi3/fGlyphs.glsl</file>
+        <file>ShadersRPi3/fInvertedPageCurl.glsl</file>
+        <file>ShadersRPi3/fMain.glsl</file>
+        <file>ShadersRPi3/fMorph.glsl</file>
+        <file>ShadersRPi3/fMultiply_blend.glsl</file>
+        <file>ShadersRPi3/fParticle.glsl</file>
+        <file>ShadersRPi3/fPerlin.glsl</file>
+        <file>ShadersRPi3/fPinwheel.glsl</file>
+        <file>ShadersRPi3/fPixelize.glsl</file>
+        <file>ShadersRPi3/fPolkaDotsCurtain.glsl</file>
+        <file>ShadersRPi3/fPowerKaleido.glsl</file>
+        <file>ShadersRPi3/fPrefix.glsl</file>
+        <file>ShadersRPi3/fRace.glsl</file>
+        <file>ShadersRPi3/fRadial.glsl</file>
+        <file>ShadersRPi3/fRipple.glsl</file>
+        <file>ShadersRPi3/fSwap.glsl</file>
+        <file>ShadersRPi3/fSwirl.glsl</file>
+        <file>ShadersRPi3/fText.glsl</file>
+        <file>ShadersRPi3/fWaterDrop.glsl</file>
+        <file>ShadersRPi3/fWind.glsl</file>
+        <file>ShadersRPi3/vDebug_quad.glsl</file>
+        <file>ShadersRPi3/vDepth.glsl</file>
+        <file>ShadersRPi3/vGlyphs.glsl</file>
+        <file>ShadersRPi3/vParticle.glsl</file>
+        <file>ShadersRPi3/vRace.glsl</file>
+        <file>ShadersRPi3/vShader.glsl</file>
+        <file>ShadersRPi3/vText.glsl</file>
+    </qresource>
+</RCC>

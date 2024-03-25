@@ -1,0 +1,5 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="i18n">
+<file alias="VScoreBoard_en_US.qm">/home/panel/qtprojects/VScoreBoard/.qm/VScoreBoard_en_US.qm</file>
+</qresource>
+</RCC>
