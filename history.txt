@@ -1,0 +1,155 @@
+    1  sudo raspi-config
+    2  SUDO APT AUTOREMOVE
+    3  sudo apt autoremove
+    4  sudo apt update
+    5  sudo apt upgrade
+    6  sudo apt install qt5-default qtcreator libqt5multimedia5
+    7  sudo apt install qtcreator libqt5multimedia5
+    8  sudo apt install qtbase5-dev
+    9  md qtprojects
+   10  mkdir qtprojects
+   11  sudo reboot
+   12  git
+   13  apt search bluetooth | grep qt
+   14  sudo apt install libqt5bluetooth5
+   15  sudo apt install libqt5bluetooth5-dev
+   16  apt search bluetooth | grep qt5
+   17  apt search multimedia | grep qt5
+   18  sudo apt install libqt5multimedia5
+   19  sudo apt install libqt5multimedia5-dev
+   20  sudo find / -name qbluetoothaddress
+   21  sudo find / -name qbluetooth
+   22  sudo find / -name bluetooth
+   23  cd /opt
+   24  ls
+   25  cd ..
+   26  apt search blue ! grep qt
+   27  apt search blue | grep qt
+   28  apt search bluez | grep qt
+   29  sudo apt install libkf5bluezqt-dev
+   30  sudo apt install libqt5bluetooth5
+   31  sudo apt install libqt5bluetooth5-dev
+   32  apt search qt6
+   33  sudo find / -name bluetoothaddress
+   34  sudo find / -name bluetooth
+   35  sudo find / -name "*.h"
+   36  sudo apt install libbluetooth-dev
+   37  cd qtprojects/VScoreBoard/
+   38  qtcreator VScoreBoard.pro
+   39  ls
+   40  cd qtprojects/
+   41  ls
+   42  cd build-VScoreBoard-Desktop-Debug/
+   43  ls
+   44  make
+   45  ./VScoreBoard 
+   46  qtcreator 
+   47  htop
+   48  LS
+   49  ls
+   50  cd Immagini/
+   51  ls
+   52  cd ../qtprojects/VScoreBoard/
+   53  ls
+   54  cp Logo_SSD_UniMe.png ../Immagini
+   55  cp Logo_SSD_UniMe.png ../../Immagini
+   56  cd ~/Immagini
+   57  ls
+   58  rm Logo_SSD_UniMe.png 
+   59  ls -la
+   60  git config --global user.email "gabriele.salvato@cnr.it"
+   61  git config --global user.name "Gabriele Salvato"
+   62  cd ..
+   63  cd qtprojects/
+   64  cd build-VScoreBoard-Desktop-Release/
+   65  ls
+   66  make
+   67  ./VScoreBoard 
+   68  cd qtprojects/
+   69  cd build-VScoreBoard-Desktop-Debug/
+   70  make -j1
+   71  cd ..
+   72  cd VScoreBoard/
+   73  ls -la
+   74  make clean
+   75  ls -la
+   76  qcreator
+   77  creator
+   78  qtcreator
+   79  cd qtprojects/
+   80  ls
+   81  cd build-VScoreBoard-Desktop-Debug/
+   82  ls
+   83  make
+   84  ./VScoreBoard 
+   85  apt search virtualkey 
+   86  sudo apt install qtvirtualkeyboard-plugin
+   87  sudo raspi-config
+   88  sudo apt install --reinstall qtvirtualkeyboard-plugin
+   89  sudo reboot
+   90  sudo raspi-config
+   91  sudo dpkg-reconfigure locales
+   92  echo "LANG=it_IT.UTF-8" > /etc/locale.conf
+   93  sudo echo "LANG=it_IT.UTF-8" > /etc/locale.conf
+   94  sudo "echo "LANG=it_IT.UTF-8" > /etc/locale.conf"
+   95  sudo echo "LANG=it_IT.UTF-8" > /etc/locale.conf
+   96  sudo su
+   97  cd qtprojects/build-VScoreBoard-Desktop-Debug/
+   98  ./VScoreBoard 
+   99  cd qtprojects/build-VScoreBoard-Desktop-Debug/
+  100  ./VScoreBoard 
+  101  apt search folderlistmodel
+  102  sudo apt install qml-module-qt-labs-folderlistmodel
+  103  htop
+  104  sudo loginctl enable-linger panel
+  105  mkdir -p ~/.config/systemd/user
+  106  geany panel.service
+  107  cp panel.service ~/.config/systemd/user
+  108  sudo systemctl --user enable panel.service
+  109  systemctl --user enable panel.service
+  110  systemctl --user start panel.service
+  111  systemctl --user status panel.service
+  112  sudo reboot
+  113  history > history_Rpi3.txt
+  114  geany history_Rpi3.txt 
+  115  logout
+  116  htop
+  117  which vlc
+  118  htop
+  119  ls
+  120  find . -name "*.mp4"
+  121  ls -la ./silvia.mp4 
+  122  ls -la ./volleyunime.mp4 
+  123  ls -la "SSD UNIME VOLLEY .mov" 
+  124  ls -la "SSD UNIME VOLLEY def.mov" 
+  125  cd Video/ls
+  126  cd Video
+  127  ls -la
+  128  sudo apt update && sudo apt upgrade -y
+  129  git clone https://github.com/salvato/VScoreBoard_RPi3.git
+  130  sudo apt install ssh-askpass
+  131  htop
+  132  ls
+  133  ls -la
+  134  cd'SSD UNIME VOLLEY def.mov' ./Video/
+  135  cp 'SSD UNIME VOLLEY def.mov' ./Video/
+  136  htop
+  137  sudo reaspi-config
+  138  sudo raspi-config
+  139  htop
+  140  sudo raspi-config
+  141  htop
+  142  sudo reboot
+  143  qtcreator
+  144  ffplay definitivo.mp4 
+  145  geany VolleyPanel.desktop
+  146  htop
+  147  ls -la /usr/share/plymouth/themes/pix/splash.png
+  148  cd /usr/share/plymouth/themes/pix/splash.png
+  149  cd /usr/share/plymouth/themes/pix
+  150  sudo mv splash.png splash.png.original
+  151  sudo cp /home/pi/Logo_SSD.png splash.png
+  152  sudo cp /home/panel/Logo_SSD.png splash.png
+  153  sudo plymouth-set-default-theme --rebuild-initrd pix
+  154  sudo reboot
+  155  history > history.txt
