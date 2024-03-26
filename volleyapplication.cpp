@@ -59,7 +59,11 @@ VolleyApplication::VolleyApplication(int &argc, char **argv)
     srand(uint(time.msecsSinceStartOfDay()));
 
     pScoreController = new VolleyController(pLogFile);
-    pScoreController->show();
+    QList<QScreen*> screens = QApplication::screens();
+    if(screens.count() < 2)
+        pScoreController->showMinimized();
+    else
+        pScoreController->show();
 }
 
 

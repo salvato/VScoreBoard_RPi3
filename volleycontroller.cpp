@@ -76,9 +76,6 @@ VolleyController::VolleyController(QFile *myLogFile, QWidget *parent)
     sendAll();
     setEventHandlers();
     pVolleyPanel->showFullScreen();
-    QList<QScreen*> screens = QApplication::screens();
-    if(screens.count() < 2)
-        hide();
 }
 
 
